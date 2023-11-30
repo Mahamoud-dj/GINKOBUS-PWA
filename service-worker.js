@@ -21,7 +21,7 @@ self.addEventListener("install", (e) => {
   });
 
   self.addEventListener("fetch", (e) => {
-    if(e.request.url.startsWith("http")){return ;}
+    if(!e.request.url.startsWith("http")){return ;}
     e.respondWith(
       (async () => {
         const r = await caches.match(e.request);
