@@ -1,0 +1,41 @@
+{
+    "short_name": "Ginko Bus",
+    "name": "GinkoBus PWA",
+    "icons": [
+      {
+        "src": "./icons/icon-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "./icons/icon-64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "./icons/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+
+      {
+        "src": "./icons/maskable_icon.png",
+        "type": "image/png",
+        "sizes": "274x274",
+        "purpose":"any maskable"
+      },
+      {
+        "src": "./icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "id": "index.html",
+    "start_url": "index.html",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "description": "Weather forecast information"
+  }
